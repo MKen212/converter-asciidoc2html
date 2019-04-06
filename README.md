@@ -7,7 +7,7 @@ Activities to convert into HTML first time:
 * Create index.js to convert all asciidoc files to html format
 * Remove any existing files from ./output-html
 * Using Node.js Terminal, convert docs to html format: node {indexfile}
-* Copy "asciidoc.css" from main directory to ./output-html and any generated sub-directories
+* Copy "asciidoc.css": copy node_modules\@asciidoctor\core\dist\css\asciidoctor.css output-html (and any sub-directories)
 * Copy any {additionalFiles} from repository into ./output-html
 * Check html files and make any required adjustments
 * Move contents of ./output-html directory and sub-directories to final destination
@@ -19,7 +19,7 @@ Activities to update HTML subsequent times:
 * Update relevant index.js with any changes
 * Remove any existing files from ./output-html
 * Using Node.js Terminal, convert docs to html format: node {indexfile}
-* Copy "asciidoc.css" from main directory to /output-html and any generated sub-directories
+* Copy "asciidoc.css": copy node_modules\@asciidoctor\core\dist\css\asciidoctor.css output-html (and any sub-directories)
 * Copy any {additionalFiles} from repository into ./output-html
 * Check html files and make any required adjustments
 * Move contents of ./output-html directory and sub-directories to final destination
