@@ -1,0 +1,22 @@
+{
+  "name": "converter-asciidoc2html",
+  "version": "1.0.0",
+  "description": "Tool to convert asciidoc to html using asciidoctor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkKensington/converter-asciidoc2html.git"
+  },
+  "author": "Mark Kensington",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarkKensington/converter-asciidoc2html/issues"
+  },
+  "homepage": "https://github.com/MarkKensington/converter-asciidoc2html#readme",
+  "dependencies": {
+    "asciidoctor": "^2.0.0-rc.2"
+  }
+}
