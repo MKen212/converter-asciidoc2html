@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/MarkKensington/converter-asciidoc2html#readme",
   "dependencies": {
-    "asciidoctor": "^2.0.0-rc.2"
+    "asciidoctor": "^2.0.3"
   }
 }

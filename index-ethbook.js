@@ -1,4 +1,4 @@
-/* Converter using asciidoctor to convert asciidoc files to html
+/* JavaScript converter using asciidoctor to convert asciidoc files to html
  *
  * ethereumbook repository
  *
